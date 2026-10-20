@@ -1,0 +1,345 @@
+{
+ "fy2025_level_billion": {
+  "total": 38.844122,
+  "income": 10.979911,
+  "sales": 16.529684
+ },
+ "one_pp_million_fy2025": {
+  "total": 388.44122,
+  "income": 109.79911,
+  "sales": 165.29684
+ },
+ "downturn_table": [
+  {
+   "tax": "total",
+   "fy": 2009,
+   "actual": -8.62,
+   "scenario_fc": -1.19,
+   "drift_fc": 6.14,
+   "drift10_fc": 3.91,
+   "abs_err_scenario": 7.43,
+   "abs_err_drift10": 12.53
+  },
+  {
+   "tax": "total",
+   "fy": 2010,
+   "actual": -1.42,
+   "scenario_fc": -4.84,
+   "drift_fc": 5.66,
+   "drift10_fc": 2.74,
+   "abs_err_scenario": 3.43,
+   "abs_err_drift10": 4.16
+  },
+  {
+   "tax": "total",
+   "fy": 2020,
+   "actual": -0.44,
+   "scenario_fc": -3.11,
+   "drift_fc": 4.89,
+   "drift10_fc": 2.51,
+   "abs_err_scenario": 2.67,
+   "abs_err_drift10": 2.95
+  },
+  {
+   "tax": "income",
+   "fy": 2009,
+   "actual": -16.82,
+   "scenario_fc": -6.18,
+   "drift_fc": 8.47,
+   "drift10_fc": 3.46,
+   "abs_err_scenario": 10.63,
+   "abs_err_drift10": 20.27
+  },
+  {
+   "tax": "income",
+   "fy": 2010,
+   "actual": -5.39,
+   "scenario_fc": -11.19,
+   "drift_fc": 7.66,
+   "drift10_fc": 1.46,
+   "abs_err_scenario": 5.8,
+   "abs_err_drift10": 6.85
+  },
+  {
+   "tax": "income",
+   "fy": 2020,
+   "actual": -11.7,
+   "scenario_fc": -13.43,
+   "drift_fc": 6.06,
+   "drift10_fc": 1.12,
+   "abs_err_scenario": 1.73,
+   "abs_err_drift10": 12.82
+  },
+  {
+   "tax": "sales",
+   "fy": 2009,
+   "actual": -7.08,
+   "scenario_fc": -6.83,
+   "drift_fc": 6.0,
+   "drift10_fc": 3.52,
+   "abs_err_scenario": 0.25,
+   "abs_err_drift10": 10.6
+  },
+  {
+   "tax": "sales",
+   "fy": 2010,
+   "actual": -1.03,
+   "scenario_fc": -6.38,
+   "drift_fc": 5.58,
+   "drift10_fc": 2.21,
+   "abs_err_scenario": 5.35,
+   "abs_err_drift10": 3.24
+  },
+  {
+   "tax": "sales",
+   "fy": 2020,
+   "actual": 1.22,
+   "scenario_fc": -2.63,
+   "drift_fc": 5.56,
+   "drift10_fc": 5.51,
+   "abs_err_scenario": 3.85,
+   "abs_err_drift10": 4.29
+  }
+ ],
+ "downturn_mae": {
+  "abs_err_scenario": {
+   "income": 6.05,
+   "sales": 3.15,
+   "total": 4.51
+  },
+  "abs_err_drift10": {
+   "income": 13.32,
+   "sales": 6.04,
+   "total": 6.55
+  }
+ },
+ "best_unconditional": [
+  {
+   "tax": "income",
+   "h": 1,
+   "model": "No change",
+   "RMSE": 9.495
+  },
+  {
+   "tax": "income",
+   "h": 2,
+   "model": "No change",
+   "RMSE": 11.701
+  },
+  {
+   "tax": "sales",
+   "h": 1,
+   "model": "AR(1)",
+   "RMSE": 5.963
+  },
+  {
+   "tax": "sales",
+   "h": 2,
+   "model": "AR(1)",
+   "RMSE": 10.907
+  },
+  {
+   "tax": "total",
+   "h": 1,
+   "model": "Drift (10-yr)",
+   "RMSE": 4.496
+  },
+  {
+   "tax": "total",
+   "h": 2,
+   "model": "Drift (10-yr)",
+   "RMSE": 7.073
+  }
+ ],
+ "conditional_accuracy": [
+  {
+   "tax": "income",
+   "n": 25.0,
+   "RMSE_scenario": 7.968,
+   "RMSE_drift": 11.482,
+   "RMSE_drift10": 9.978,
+   "DM_p": 0.03,
+   "DM_p_drift10": 0.103,
+   "RMSE_scenario_ex_2021_22": 7.316,
+   "RMSE_drift10_ex_2021_22": 9.005,
+   "ratio_drift10": 0.799,
+   "ratio": 0.694
+  },
+  {
+   "tax": "sales",
+   "n": 25.0,
+   "RMSE_scenario": 6.112,
+   "RMSE_drift": 6.435,
+   "RMSE_drift10": 6.401,
+   "DM_p": 0.718,
+   "DM_p_drift10": 0.586,
+   "RMSE_scenario_ex_2021_22": 6.121,
+   "RMSE_drift10_ex_2021_22": 6.559,
+   "ratio_drift10": 0.955,
+   "ratio": 0.95
+  },
+  {
+   "tax": "total",
+   "n": 25.0,
+   "RMSE_scenario": 3.864,
+   "RMSE_drift": 5.275,
+   "RMSE_drift10": 4.585,
+   "DM_p": 0.079,
+   "DM_p_drift10": 0.168,
+   "RMSE_scenario_ex_2021_22": 3.48,
+   "RMSE_drift10_ex_2021_22": 4.179,
+   "ratio_drift10": 0.843,
+   "ratio": 0.733
+  }
+ ],
+ "dollar_rmse_total_million": {
+  "scenario": 1501.0721769746344,
+  "drift10": 1780.923021508049
+ },
+ "sensitivities": [
+  {
+   "tax": "total",
+   "term": "const",
+   "coef": -4.878,
+   "se": 1.833,
+   "t": -2.661,
+   "p": 0.011
+  },
+  {
+   "tax": "total",
+   "term": "y_lag",
+   "coef": -0.165,
+   "se": 0.166,
+   "t": -0.994,
+   "p": 0.326
+  },
+  {
+   "tax": "total",
+   "term": "infl",
+   "coef": 1.289,
+   "se": 0.305,
+   "t": 4.226,
+   "p": 0.0
+  },
+  {
+   "tax": "total",
+   "term": "dff",
+   "coef": -1.413,
+   "se": 0.668,
+   "t": -2.114,
+   "p": 0.041
+  },
+  {
+   "tax": "total",
+   "term": "dur",
+   "coef": -0.152,
+   "se": 0.833,
+   "t": -0.183,
+   "p": 0.856
+  },
+  {
+   "tax": "total",
+   "term": "gdp",
+   "coef": 2.28,
+   "se": 0.621,
+   "t": 3.67,
+   "p": 0.001
+  },
+  {
+   "tax": "income",
+   "term": "const",
+   "coef": -18.78,
+   "se": 4.663,
+   "t": -4.028,
+   "p": 0.0
+  },
+  {
+   "tax": "income",
+   "term": "y_lag",
+   "coef": -0.447,
+   "se": 0.165,
+   "t": -2.718,
+   "p": 0.01
+  },
+  {
+   "tax": "income",
+   "term": "infl",
+   "coef": 3.944,
+   "se": 0.795,
+   "t": 4.961,
+   "p": 0.0
+  },
+  {
+   "tax": "income",
+   "term": "dff",
+   "coef": -4.856,
+   "se": 2.156,
+   "t": -2.253,
+   "p": 0.03
+  },
+  {
+   "tax": "income",
+   "term": "dur",
+   "coef": -0.985,
+   "se": 1.771,
+   "t": -0.556,
+   "p": 0.581
+  },
+  {
+   "tax": "income",
+   "term": "gdp",
+   "coef": 5.051,
+   "se": 1.369,
+   "t": 3.689,
+   "p": 0.001
+  },
+  {
+   "tax": "sales",
+   "term": "const",
+   "coef": -2.055,
+   "se": 3.46,
+   "t": -0.594,
+   "p": 0.556
+  },
+  {
+   "tax": "sales",
+   "term": "y_lag",
+   "coef": 0.053,
+   "se": 0.126,
+   "t": 0.419,
+   "p": 0.677
+  },
+  {
+   "tax": "sales",
+   "term": "infl",
+   "coef": 0.907,
+   "se": 0.455,
+   "t": 1.993,
+   "p": 0.053
+  },
+  {
+   "tax": "sales",
+   "term": "dff",
+   "coef": -1.489,
+   "se": 0.769,
+   "t": -1.936,
+   "p": 0.06
+  },
+  {
+   "tax": "sales",
+   "term": "dur",
+   "coef": -1.197,
+   "se": 1.417,
+   "t": -0.845,
+   "p": 0.403
+  },
+  {
+   "tax": "sales",
+   "term": "gdp",
+   "coef": 1.521,
+   "se": 1.094,
+   "t": 1.391,
+   "p": 0.172
+  }
+ ]
+}

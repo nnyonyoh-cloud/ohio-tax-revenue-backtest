@@ -1,0 +1,13 @@
+tax,h,model,nominal,coverage,n
+income,1,AR(1),0.8,0.7307692307692307,26
+income,1,ARDL-macro,0.8,0.6923076923076923,26
+income,2,AR(1),0.8,0.72,25
+income,2,ARDL-macro,0.8,0.68,25
+sales,1,AR(1),0.8,0.8461538461538461,26
+sales,1,ARDL-macro,0.8,0.7307692307692307,26
+sales,2,AR(1),0.8,0.76,25
+sales,2,ARDL-macro,0.8,0.6,25
+total,1,AR(1),0.8,0.7692307692307693,26
+total,1,ARDL-macro,0.8,0.8076923076923077,26
+total,2,AR(1),0.8,0.76,25
+total,2,ARDL-macro,0.8,0.64,25
